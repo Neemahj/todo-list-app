@@ -22,8 +22,8 @@ const TodoTasks = () => {
       {tasks.map((task) => {
         return (
           <div className="task-container" key={task.id}>
-            <h4 className="task-title">{task.title}</h4>
-            <p className="task-dec">{task.decriptions}</p>
+            <h4 className="task-title">{task?.title}</h4>
+            <p className="task-dec">{task?.decriptions}</p>
           </div>
         );
       })}

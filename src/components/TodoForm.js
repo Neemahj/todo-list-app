@@ -14,7 +14,6 @@ const TodoForm = () => {
     e.preventDefault();
     try{
       await axios.post(apiUrl, input)
-      console.log(input)
     }catch{
       console.log("ERROR")
     } 
