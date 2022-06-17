@@ -1,26 +1,80 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: rgb(230, 121, 20);
 }
 
-.container{
+.container {
   width: 100%;
   max-width: 600px;
   border-radius: 15px;
-  height: 600px;
   margin: 20px auto;
   background-color: black;
   padding: 20px;
 }
 
-.header{
+.header {
   color: whitesmoke;
   text-align: center;
   padding: 20px;
-   
 }
+
+form{
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  height: 220px;
+  margin: 5px auto;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.input-field {
+  margin: 20px 0;
+}
+
+.input-field input[type=text]{
+  padding: 5px;
+  color: black;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid rgb(36, 34, 34);
+}
+
+input:focus{
+  outline: none;
+}
+
+.btn{
+  width: 100%;
+  max-width: 100px;
+  margin: auto;
+}
+
+.btn button{
+  padding: 10px;
+  background-color: rgb(230, 121, 20);
+  color: black;
+  border-radius: 5px;
+}
+
+.task-container{
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  margin: 10px auto;
+  border-radius: 15px;
+  padding: 10px;
+  height: 100px;
+}
+
+.task-title{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+
