@@ -23,7 +23,7 @@ body {
   padding: 20px;
 }
 
-form{
+form {
   width: 100%;
   max-width: 500px;
   background-color: white;
@@ -37,7 +37,7 @@ form{
   margin: 20px 0;
 }
 
-.input-field input[type=text]{
+.input-field input[type="text"] {
   padding: 5px;
   color: black;
   width: 100%;
@@ -45,36 +45,48 @@ form{
   border: 2px solid rgb(36, 34, 34);
 }
 
-input:focus{
+input:focus {
   outline: none;
 }
 
-.btn{
+.btn {
   width: 100%;
   max-width: 100px;
   margin: auto;
 }
 
-.btn button{
+.btn button {
   padding: 10px;
   background-color: rgb(230, 121, 20);
   color: black;
   border-radius: 5px;
 }
 
-.task-container{
+.task-container {
   width: 100%;
   max-width: 500px;
   background-color: white;
   margin: 10px auto;
   border-radius: 15px;
-  padding: 10px;
+  padding: 20px;
   height: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.task-title{
-  margin-bottom: 5px;
-  margin-top: 5px;
+.task-content {
+  width: 100%;
+  max-width: 400px;
 }
 
+.task-content h4 {
+  padding-bottom: 5px;
+}
 
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  margin-right: 10px;
+  margin-top: 10px;
+}
